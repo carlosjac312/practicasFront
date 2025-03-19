@@ -64,6 +64,7 @@ export const handler: Handlers = {
 const Page = (props: PageProps<Props>) => {
   return (
     <div>
+      <a href={"/buscar"}>Buscar</a>
       <h1 style={{ paddingLeft: "20px" }}>{props.data.palabra}</h1>
       <div class="container">
         <Phonetics foneticos={props.data.phonetics} />
